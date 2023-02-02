@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portait chinois</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+
+<body>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+
+<!-- Header - CodingSnow -->
+  <div class="home">
+
+    <header>
+      <p class="brand">Portrait chinois</p>
+      <div class="navigation">
+        <div class="choix">
+          <a href="#cars">Voiture</a>
+          <a href="#yellow">Couleur</a>
+          <a href="#generosity">Caractère</a>
+          <a href="#game">Jeu vidéo</a>
+          <a href="#city">Paysage</a>
+          <a href="#clothe">Vêtement</a>
+          <a href="#meew">Pokémon</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page d'accueil -->
+    <div class="page">
+      <h1> By Oshoffa</h1>
+      <a href="#cars">start</a>
+    </div>
+
+    <video autoplay muted loop>
+      <source src="img/fond.mp4" type="video/mp4">
+      <!-- <source src="fond.ogg" type="video/ogg"> -->
+    </video>
+  </div>
+
+  <div class="liste-analogies"></div>
+
+  <!-- Formulaire -->
+  <div class="formul" id="Formulaire">
+    <section>
+      <main class="styleform">
+        <form action="" method="post">
+          <h3>Vous aussi, créez votre catégorie :</h3>
+          <br>
+          <label for="mail">
+            <h3>Mail</h3> <input type="email" id="mail" required>
+          </label>
+          <label for="analogie">
+            <h3>Si j'étais ...</h3> <input type="text" id="analogie" required>
+          </label>
+          <label for="valeurAnalogie">
+            <h3>Je serais ...</h3><input type="text" id="valeurAnalogie" required>
+          </label>
+          <label for="image">
+            <h3>Images</h3> <input type="url" id="image" required>
+          </label>
+          <label for="arguments">
+            <h3>Arguments</h3> <textarea class="argument" type="text" id="arguments" cols="50" rows="5"></textarea>
+          </label>
+          <p class="send">
+            <label>
+              <input type="button" value="Envoyer et Créer" id="sub" name="sub">
+            </label>
+          </p>
+          <div id="message"></div>
+        </form>
+      </main>
+
+      <!-- pop-up -->
+      <div class="popup-visible">
+        <div class="mention">
+          <img src="img/croix.png" alt="fermer" class="fermer">
+          <p>IMAGES</p>
+          <a class="link"
+            href="https://unsplash.com/fr/photos/hVld5nXY-Ok?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">voiture.jpg</a>
+          <a class="link" href="https://unsplash.com/fr/photos/ESYU3GYbLHE">orange.jpg</a>
+          <a class="link"
+            href="https://unsplash.com/fr/photos/ktPKyUs3Qjs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">générosité.jpg</a>
+          <a class="link"
+            href="https://unsplash.com/fr/photos/8Gdayy2Lhi0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">jeu.jpg</a>
+          <a class="link"
+            href="https://unsplash.com/fr/photos/layMbSJ3YOE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">paysage.jpg</a>
+          <a class="link"
+            href="https://unsplash.com/fr/photos/hWdzH8YY8kk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">tshirt.jpg</a>
+          <a class="link" href="https://www.pixiv.net/en/artworks/72830808">pokémon.jpg</a>
+          <br>
+          <br>
+          <p>ÉDITION</p>
+          <p>Conception graphique et Développement : Oshoffa Keren, étudiante de
+            l’Université Gustave Eiffel</p>
+          <p>Hébergeur : Université Gustave Eiffel</p>
+          <p>Université Gustave Eiffel : 5 boulevard Descartes - Champs-sur-Marne - 77454 Marne-la-Vallée Cedex2 - Tél
+            : 33(1).60.95.75.00 - Fax : 33(1).60.95.75.75</p>
+          <br>
+          <p>CRÉDITS</p>
+          <a class="link" href="https://www.codingsnow.com/2021/04/tutorial54.html">Coding snow: header & font</a>
+          <br>
+          <a class="link" href="https://scrollrevealjs.org/guide/customization.html">ScrollReveal: animation</a>
+          <br>
+          <br>
+          <p>Législation relative aux données à caractère personnel</p>
+          <br>
+          <p>Le formulaire qui permet la création d'analogies personnalisées recueille votre adresse e-mail et votre
+            adresse IP. 
+            Pour toute question concernant la collecte ou le traitement de vos données personnelles par
+            l'UPEM, vous pouvez contacter le responsable du traitement : Philippe Gambette
+            (philippe.gambette@univ-eiffel.fr). 
+            Les documents contenant des données personnelles détenues par l'UPEM ne
+            seront jamais transmis à des tiers et jamais vendus sur le marché</p>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <div id="vous"></div>
+
+  <!-- footer -->
+  <section class="back">
+    <footer>
+      <div class="image-cliquable">
+        <p>Mentions légales</p>
+      </div>
+    </footer>
+  </section>
+
+</body>
+
+</html>

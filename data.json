@@ -1,0 +1,57 @@
+[
+    {
+        "analogie":"une voiture", 
+        "valeurAnalogie":"la Lamborghini Urus", 
+        "image":"img/voiture.jpg",
+        "explication":"Certains diront pourquoi une voiture. C'est très simple. Depuis petite j'admire ces dernières, et j'aime penser que chacune d'entre elles a sa propre vibe. Ainsi pour moi cette voiture symbolise ma valeur, mon charisme et mon perfectionnisme.",
+        "id":"cars"
+    },
+        
+    {
+        "analogie":"une couleur",
+        "valeurAnalogie": "l'orange", 
+        "image":"img/orange.jpg",
+        "explication":"On dit que c'est la couleur de l'optimisme et du dynamisme. Mais je l'ai choisi car elle valorise aussi l'impulsivité et la liberté. Je n'aime pas les règles inutiles, les dates limites, la routine et le manque d'activité.",
+        "id":"yellow"
+    },
+
+    {
+        "analogie":"un caractère", 
+        "valeurAnalogie": "la générosité", 
+        "image":"img/genereux.jpg",
+        "explication":"Pour moi, c'est le caractère le plus humble que l'on puisse avoir puisqu'il s'agit d'une preuve d'humanité. Je suis le genre de personne à savoir tendre la main à l'autre afin de l'aider quoi qu'il arrive. C'est pourquoi ce trait me définit.",
+        "id":"generosity"
+    }, 
+        
+    {
+        "analogie":"un jeu vidéo",
+        "valeurAnalogie":"Mario Kart 8 Deluxe", 
+        "image":"img/jeu.jpg", 
+        "explication":"La complexité des circuits et la diversité de ce jeu sont ce qui me caractérise. Il y a énormément de possibilité comme le fait de jouer avec ses amis ou sa famille. C'est pourquoi ce jeu représente une part de mon enfance et de ma sociabilité.",
+        "id":"game"
+    }, 
+
+    {
+        "analogie":"un paysage", 
+        "valeurAnalogie":"une ville animée", 
+        "image":"img/paysage.jpg",
+        "explication":"On me qualifie de personne pas du tout discrète qu'on remarque très facilement. C'est parfait car ces espaces sont imposants et souvent mélangés à de l'agitation. Ils sont aussi la représentation de ma distraction.",
+        "id":"city"
+    },
+
+    {
+        "analogie":"un vêtement", 
+        "valeurAnalogie":"un pyjama",
+        "image":"img/tshirt.jpg",
+        "explication":"Les personnes qui me connaissent savent je suis à l'aise dans un espace qui m'est familier. Et le pyjama se porte habituellement chez soi, le seul lieu dans lequel on se sent complètement à sa place et dans un confort total.",
+        "id":"clothe"
+    },
+
+    {
+        "analogie":"un pokémon", 
+        "valeurAnalogie":"Mew", 
+        "image":"img/pokemon.jpg",
+        "explication":"Ce pokémon symbolise la discrétion et la curiosité. Bien qu'il soit très intelligent, Mew a un comportement très enfantin et passe son temps à jouer et à s'amuser. Il préfère ne pas trop prendre part aux conflits humains de peur de s'apporter des problèmes.",
+        "id":"meew" 
+    }
+]
